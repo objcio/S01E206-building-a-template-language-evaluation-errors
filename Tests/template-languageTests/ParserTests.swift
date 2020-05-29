@@ -30,7 +30,7 @@ final class ParserTests: XCTestCase {
     
     func testTag() throws {
         input = "<p></p>"
-        XCTAssertEqual(parsed, .tag(name: "bar"))
+        XCTAssertEqual(parsed, .tag(name: "p"))
     }
 
     func testTagBody() throws {
